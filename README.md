@@ -77,7 +77,7 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## 📧 Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [josefrlnc01@gmail.com]
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [josefrlnc01@gmail.com](mailto:josefrlnc01@gmai.com)
 
 ---
 
