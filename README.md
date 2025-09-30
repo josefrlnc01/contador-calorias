@@ -6,7 +6,7 @@
 ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
 
-Una aplicación web moderna para realizar un seguimiento de tu ingesta y gasto calórico diario, desarrollada con React, TypeScript y Tailwind CSS.
+Un proyecto sencillo para aprender TypeScript + React + Tailwind CSS
 
 ## 🚀 Características
 
