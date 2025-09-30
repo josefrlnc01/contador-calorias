@@ -1,53 +1,87 @@
-# React + TypeScript + Vite
+# 🍏 Contador de Calorías
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Versión](https://img.shields.io/badge/versión-1.0.0-blue)
+![Licencia](https://img.shields.io/badge/licencia-MIT-green)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
 
-Currently, two official plugins are available:
+Una aplicación web moderna para realizar un seguimiento de tu ingesta y gasto calórico diario, desarrollada con React, TypeScript y Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características
 
-## React Compiler
+- **Registro de Actividades**: Añade actividades de consumo y ejercicio con sus respectivas calorías.
+- **Seguimiento en Tiempo Real**: Visualiza tu balance calórico al instante.
+- **Interfaz Intuitiva**: Diseño limpio y fácil de usar.
+- **Responsive**: Funciona perfectamente en dispositivos móviles y de escritorio.
+- **Persistencia de Datos**: Tus registros se guardan localmente en tu navegador.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🛠️ Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- **Frontend**: React 18 con TypeScript
+- **Estilización**: Tailwind CSS
+- **Gestión de Estado**: React Context API
+- **Iconos**: Heroicons
+- **Herramientas de Desarrollo**: Vite, ESLint, Prettier
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📦 Instalación
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/contador-calorias.git
+   cd contador-calorias
+   ```
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+2. Instala las dependencias:
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   # o
+   yarn dev
+   ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+4. Abre tu navegador en [http://localhost:5173](http://localhost:5173)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
+## 🎯 Uso
+
+1. **Añadir Actividad**:
+   - Selecciona el tipo de actividad (comida o ejercicio).
+   - Ingresa el nombre de la actividad.
+   - Especifica las calorías.
+   - Haz clic en "Guardar".
+
+2. **Ver Resumen**:
+   - Visualiza las calorías consumidas y quemadas.
+   - Revisa el balance calórico total.
+   - Explora el historial de actividades.
+
+3. **Gestionar Actividades**:
+   - Edita o elimina actividades existentes.
+   - Filtra actividades por tipo.
+
+
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Siéntete libre de abrir un issue o enviar un pull request.
+
+## 📧 Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme en [josefrlnc01@gmail.com]
+
+---
+
+
 import reactDom from 'eslint-plugin-react-dom'
 
 export default defineConfig([
