@@ -13,7 +13,6 @@ export default function ActivityList({activities, dispatch} : ActivityListProps)
     const categoryName = useMemo(() => (category : Activity['category']) => 
         categories.map((cat) => cat.id === category ? cat.name : '')
         ,[activities])
-  const activitiesStorageds = localStorage.getItem('activities')
   const isEmptyActivity = useMemo(() => (activities.length === 0),[activities])
   return (
     <div className="space-y-6">
