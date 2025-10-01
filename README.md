@@ -8,6 +8,8 @@
 
 Un proyecto sencillo para aprender TypeScript + React + Tailwind CSS
 
+Gracias a este proyecto comencé a comprender y utilizar useReducer en React a modo disparador de acciones.
+
 ## 🚀 Características
 
 - **Registro de Actividades**: Añade actividades de consumo y ejercicio con sus respectivas calorías.
