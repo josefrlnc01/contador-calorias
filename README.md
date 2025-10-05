@@ -30,7 +30,7 @@ Gracias a este proyecto comencé a comprender y utilizar useReducer en React a m
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/contador-calorias.git
+   git clone https://github.com/josefrlnc01/contador-calorias.git
    cd contador-calorias
    ```
 
@@ -73,9 +73,6 @@ Gracias a este proyecto comencé a comprender y utilizar useReducer en React a m
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 
-## 🤝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Siéntete libre de abrir un issue o enviar un pull request.
 
 ## 📧 Contacto
 
